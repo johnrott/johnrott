@@ -75,11 +75,10 @@ Rather than collecting technologies, I try to use them where they make sense in 
 
 ### Hardware
 
-* AMD and Xilinx FPGAs
+* AMD/Xilinx FPGA/SOC
 * Zynq
 * Versal
-* Kria
-* Cora Z7
+* Ultrascale+
 * Raspberry Pi
 * ESP32
 
@@ -94,8 +93,7 @@ Rather than collecting technologies, I try to use them where they make sense in 
 ### Software
 
 * Python
-* C
-* C++
+* C/C++
 * Linux
 * Git
 
@@ -105,16 +103,6 @@ Rather than collecting technologies, I try to use them where they make sense in 
 * NumPy
 * Pandas
 * scikit-learn
-* Jupyter
-
-### Interfaces
-
-* AXI
-* SPI
-* UART
-* DDR
-* BRAM
-* MMIO
 
 ## Outside of Projects
 
