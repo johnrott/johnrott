@@ -16,20 +16,7 @@ I'm currently exploring hardware acceleration for computer vision and machine le
 
 One of my recent projects is a complete FPGA accelerated human detection system:
 
-Camera
-  |
-  v
-Raspberry Pi Zero 2 W
-  |
-  v
-ESP32
-  |
-  v
-FPGA
-  |
-  |-- HOG Feature Extraction
-  |-- SVM Inference
-  |-- Embedded Control
+Camera -> Raspberry Pi Zero 2 W -> ESP32 -> FPGA -> HOG Feature Extraction -> SVM Inference -> Embedded Control
 
 The project started as an HLS based HOG accelerator and evolved into a live embedded vision pipeline with custom communication logic and FPGA based inference.
 
@@ -48,31 +35,6 @@ At Sandia National Laboratories, I have worked on FPGA based machine learning ac
 ## I Like Building the Whole System
 
 I enjoy projects that require more than implementing one isolated algorithm.
-
-That often means working across:
-
-Algorithm
-  |
-  v
-Software Model
-  |
-  v
-Hardware Architecture
-  |
-  v
-HLS or RTL
-  |
-  v
-FPGA Implementation
-  |
-  v
-Embedded Interface
-  |
-  v
-Physical System
-  |
-  v
-Testing and Optimization
 
 For me, the interesting part is figuring out how all of those pieces interact, especially when performance, timing, bandwidth, resource utilization, and real world hardware constraints start competing with each other.
 
